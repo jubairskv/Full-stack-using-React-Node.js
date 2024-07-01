@@ -19,6 +19,7 @@ db.connect((err)=>{
    console.log("Database connected")
 })
 
+//FIXME:
 app.get("/student", (req, res) => {
    const sql = 'SELECT * FROM users';
    //console.log(sql)
@@ -35,4 +36,5 @@ app.listen(8081, () => {
    console.log("Listening")
 })
 
-co
+
+console
